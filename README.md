@@ -1,7 +1,9 @@
 # LocoNet-NotAus
 
-LocoNet-NotAus is a simple circut, that sends OPC_GPOFF (0x83) or OPC_GPON (0x83) to stop or (re)start LocoNet-Traffic.<br>
-The current status is display with two addtitional LEDs.
+LocoNet-NotAus is a simple circut, that sends OPC_GPOFF (0x82) for Power off or OPC_GPON (0x83) for Power on to stop or (re)start LocoNet-Traffic.<br>
+Remark: if the RailSync is (also) powered off, the circuit has no powersupply and cannot work...
+
+The current status is displayed with two addtitional LEDs.
 
 This (my) version was adapted to compile with Arduino-IDE for Arduino-UNO.
 
