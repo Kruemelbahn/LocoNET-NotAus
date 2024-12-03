@@ -6,6 +6,8 @@ Remark: if the RailSync is (also) powered off, the circuit has no powersupply an
 The current status is displayed with two addtitional LEDs.
 
 This (my) version was adapted to compile with Arduino-IDE for Arduino-UNO.
+Fuses has to be set as follows: lfuse = 0xFF; hfuse = 0xDE; efuse = 0xFD
+
 
 ### Requested libraries
 LocoNet-NotAus requires my library listed below in addition to various Arduino standard libraries:<br> 
